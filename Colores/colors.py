@@ -21,3 +21,6 @@ def yellow() :
     YELLOW = "\033[1;33m"
     stdout.write(YELLOW)
 
+def reset() :
+    RESET = "\033[0m"
+    stdout.write(RESET)
