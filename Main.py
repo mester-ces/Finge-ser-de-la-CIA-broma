@@ -1,5 +1,5 @@
 #Importar Librerias
-from Colores.colors import red, green, bold, cyan, yellow 
+from Colores.colors import red, green, bold, cyan, yellow, reset
 
 import getpass
 
@@ -10,8 +10,9 @@ user = input("Nombre de usuario:")
 
 p = getpass.getpass()
 
+
+reset()
 yellow()
-bold()
 print("Bienvendido Agente", user)
 
 
